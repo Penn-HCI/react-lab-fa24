@@ -21,10 +21,10 @@ function Home(props) {
   overflow="hidden" // Prevents any content overflow
 >
   <VStack align="right" textAlign="left" spacing="4" mt={100}>
-    <Text fontSize="9xl" mt="150px" color="white" align="right" mr={40}>
+    <Text fontSize="9xl" mt="150px" color="white" align="right" mr={35}>
       Cold Brew
     </Text>
-    <Text fontSize="3xl" color="white" align="right"  mr="220px">
+    <Text fontSize="3xl" color="white" align="right"  mr="100px">
       Drink Cold Brew with Penn HCI group
     </Text>
     <Button
@@ -37,7 +37,7 @@ function Home(props) {
       alignSelf="flex-end"
       isExternal
       maxWidth="200px"
-      mr="530px"
+      mr="410px"
     >
       Go to our Website
     </Button>
