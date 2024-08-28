@@ -20,7 +20,7 @@ function Design(props) {
     <Text fontSize="9xl" color="black" align="center" >
       Cold Brew Design
     </Text>
-    <Text fontSize="xl" mt={400} color="black" align="center" 
+    <Text fontSize="xl" mt={370} color="black" align="center" 
     >We design different types of cold brews!</Text>
     
     
