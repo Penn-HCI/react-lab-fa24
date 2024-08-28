@@ -19,8 +19,8 @@ function App() {
     <div>
       <Routes>
         {/* Add more routes as needed */}
-        <Route path="/" element={<Home />} />
-        <Route path="/design" element={<Design />} />
+        <Route path="/react-lab-fa24/" element={<Home />} />
+        <Route path="/react-lab-fa24/design" element={<Design />} />
       </Routes>
     </div>
   </ChakraProvider>

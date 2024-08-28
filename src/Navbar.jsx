@@ -38,8 +38,8 @@ import {
     {isDesktop ? (
       <Flex justify="flex-start" flex="1" marginLeft="30px"> {/* Align buttons to the left */}
         <ButtonGroup variant="link" spacing="8">
-          <Button key="Home" onClick={() => navigate('/')} variant="ghost">Home</Button>
-          <Button key="Design" onClick={() => navigate('/design')} variant="ghost">Design</Button>
+          <Button key="Home" onClick={() => navigate('/react-lab-fa24')} variant="ghost">Home</Button>
+          <Button key="Design" onClick={() => navigate('/react-lab-fa24/design')} variant="ghost">Design</Button>
         </ButtonGroup>
       </Flex>
     ) : (
