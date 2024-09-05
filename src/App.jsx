@@ -1,9 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { Routes, Route, Navigate } from "react-router-dom";
 import { ChakraProvider, useToast } from "@chakra-ui/react";
-import './App.css'
 
 import Navbar from './Navbar';
 import Home from './Home';
@@ -19,8 +16,8 @@ function App() {
     <div>
       <Routes>
         {/* Add more routes as needed */}
-        <Route path="/react-lab-fa24/" element={<Home />} />
-        <Route path="/react-lab-fa24/design" element={<Design />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/design" element={<Design />} />
       </Routes>
     </div>
   </ChakraProvider>
