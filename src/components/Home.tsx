@@ -1,18 +1,11 @@
-import React from 'react';
 import {
-    Heading,
     Text,
-    Box, Flex, Image, Center, VStack, Button, Link
+    Box, VStack, Button, Link
 } from '@chakra-ui/react';
-import { useNavigate } from 'react-router-dom';
 
-function Home(props) {
-
-    const navigate = useNavigate();
-
-
-    return (
-        <Box
+const Home = () => {
+  return (
+    <Box
   backgroundImage="latte.jpg" // Replace with your desired image URL
   backgroundSize="cover" // Ensures the background image covers the entire Box area
   backgroundPosition="center" // Centers the background image
@@ -43,8 +36,7 @@ function Home(props) {
     </Button>
   </VStack>
 </Box>
-
-    );
+  )
 }
 
-export default Home;
+export default Home
